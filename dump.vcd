@@ -1,0 +1,205 @@
+$date
+	Sat Jan 04 12:19:04 2025
+$end
+$version
+	Icarus Verilog
+$end
+$timescale
+	1s
+$end
+$scope module tb $end
+$var wire 8 ! o4 [7:0] $end
+$var wire 8 " o3 [7:0] $end
+$var wire 8 # o2 [7:0] $end
+$var wire 8 $ o1 [7:0] $end
+$var wire 8 % o [7:0] $end
+$var reg 4 & a [3:0] $end
+$var reg 4 ' b [3:0] $end
+$var reg 2 ( c [1:0] $end
+$scope module dut $end
+$var wire 4 ) a [3:0] $end
+$var wire 4 * b [3:0] $end
+$var wire 2 + c [1:0] $end
+$var wire 8 , sub_out [7:0] $end
+$var wire 8 - rem_out [7:0] $end
+$var wire 8 . quo_out [7:0] $end
+$var wire 8 / mul_out [7:0] $end
+$var wire 8 0 add_out [7:0] $end
+$var reg 8 1 o [7:0] $end
+$var reg 8 2 o1 [7:0] $end
+$var reg 8 3 o2 [7:0] $end
+$var reg 8 4 o3 [7:0] $end
+$var reg 8 5 o4 [7:0] $end
+$scope module ab $end
+$var wire 4 6 a [3:0] $end
+$var wire 4 7 b [3:0] $end
+$var reg 8 8 o [7:0] $end
+$upscope $end
+$scope module db $end
+$var wire 4 9 a [3:0] $end
+$var wire 4 : b [3:0] $end
+$var reg 8 ; o3 [7:0] $end
+$var reg 8 < o4 [7:0] $end
+$upscope $end
+$scope module mb $end
+$var wire 4 = a [3:0] $end
+$var wire 4 > b [3:0] $end
+$var reg 8 ? o2 [7:0] $end
+$upscope $end
+$scope module sb $end
+$var wire 4 @ a [3:0] $end
+$var wire 4 A b [3:0] $end
+$var reg 8 B o1 [7:0] $end
+$upscope $end
+$upscope $end
+$upscope $end
+$enddefinitions $end
+$comment Show the parameter values. $end
+$dumpall
+$end
+#0
+$dumpvars
+b11 B
+b101 A
+b1000 @
+b101000 ?
+b101 >
+b1000 =
+b11 <
+b1 ;
+b101 :
+b1000 9
+b1101 8
+b101 7
+b1000 6
+b0 5
+b0 4
+b0 3
+b0 2
+b1101 1
+b1101 0
+b101000 /
+b1 .
+b11 -
+b11 ,
+b0 +
+b101 *
+b1000 )
+b0 (
+b101 '
+b1000 &
+b1101 %
+b0 $
+b0 #
+b0 "
+b0 !
+$end
+#10
+b10110 0
+b10110 8
+b1001 -
+b1001 <
+b0 .
+b0 ;
+b1110101 /
+b1110101 ?
+b11111100 ,
+b11111100 B
+b11111100 $
+b11111100 2
+b0 %
+b0 1
+b1101 '
+b1101 *
+b1101 7
+b1101 :
+b1101 >
+b1101 A
+b1001 &
+b1001 )
+b1001 6
+b1001 9
+b1001 =
+b1001 @
+b1 (
+b1 +
+#20
+b10000 0
+b10000 8
+b100 -
+b100 <
+b1 .
+b1 ;
+b111100 /
+b111100 ?
+b100 ,
+b100 B
+b111100 #
+b111100 3
+b0 $
+b0 2
+b110 '
+b110 *
+b110 7
+b110 :
+b110 >
+b110 A
+b1010 &
+b1010 )
+b1010 6
+b1010 9
+b1010 =
+b1010 @
+b10 (
+b10 +
+#30
+b10001 0
+b10001 8
+b1 -
+b1 <
+b111 .
+b111 ;
+b11110 /
+b11110 ?
+b1101 ,
+b1101 B
+b1 !
+b1 5
+b111 "
+b111 4
+b0 #
+b0 3
+b10 '
+b10 *
+b10 7
+b10 :
+b10 >
+b10 A
+b1111 &
+b1111 )
+b1111 6
+b1111 9
+b1111 =
+b1111 @
+b11 (
+b11 +
+#40
+b1100 0
+b1100 8
+b0 -
+b0 <
+b101 .
+b101 ;
+b10100 /
+b10100 ?
+b1000 ,
+b1000 B
+b1010 &
+b1010 )
+b1010 6
+b1010 9
+b1010 =
+b1010 @
+bz (
+bz +
+#50
